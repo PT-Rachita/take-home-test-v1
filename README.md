@@ -1,40 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Rachita take home test v1: Construction Progress Calculator
 
-## Getting Started
+This is a take home test for the candidate who will be joining P.T. Rachita as IT Staff Development.
 
-First, run the development server:
+## Requirements
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Your solution will only support a single property project
+- One project MUST HAVE more than one property units
+- Each unit will have a finished flag with `boolean` value
+- We want to see:
+  - The summary of finished unit against total unit need to be accomplished. Example: **7 finished out of 10**
+  - The percentage of the project progress based on the completed units. Example: **The progress of the project is now 70%**
+- You can hard-code the data, or generate a dummy data as simple as possible
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Acceptance criteria
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+We accept your solution in:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- (ideally) A complete deployable solution using any Javascript framework, or
+- UML diagram, or
+- Pseudo code, or
+- A presentation of the solution design, or
+- A video showing how you solve the problem, or
+- Anything that you think can show us how you will solve the issue
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Intrucstions to start
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Git clone this repo (branch `main`)
+- Read the question carefully in the README file
+- Do not overdo what requested in the requirements
 
-## Learn More
+## Instructions to submit
 
-To learn more about Next.js, take a look at the following resources:
+1. Create your development
+2. Your submission will be merge request against the `main` branch
+3. Do not push to main branch
+4. If your solution is not a working code, put the link of your solution in README file then open a merge request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Questions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Any questions, guidance, etc, reach me out via email: solaiman.mansyur@gmail.com
